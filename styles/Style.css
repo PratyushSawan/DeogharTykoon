@@ -177,13 +177,10 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/images/martial-arts-silhouettes_39690-48.jpg');
-    background-size: cover;
-    height: 110vh;
+    background: url('../assets/images/taekwondo-kick-splash_9245-54.jpg');
+    background-size: contain;
     display: flex;
     justify-content: center;
-    background-color: aqua;
-    background-blend-mode: hard-light;
 }
 main .site-title:hover{
     background-color: #00000066;
