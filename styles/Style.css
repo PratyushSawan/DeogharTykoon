@@ -186,6 +186,10 @@ main .site-title:hover{
     background-color: #00000066;
     background-blend-mode: hard-light;
 }
+main .for-mobile{
+    height: 100px;
+    background-color: #0c0b0b;
+}
 main .title-content{
     background-color: rgba(0, 0, 0, 0.353);
     border-radius: 30px;
