@@ -154,7 +154,7 @@ p{
     --text-gray: #fd7701;
     padding: 1rem 0;
     display: block;
-    font-family: var(--Booter);
+    font-family: Booter;
     font-size: 2.6rem;
     font-weight: 800;
 }
@@ -192,6 +192,7 @@ main .site-title{
     }
     main .site-title h1{
         color: crimson;
+        font-size: 4rem;
     }
 }
 
