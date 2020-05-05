@@ -28,3 +28,11 @@
     font-family: Livvic;
     src: url('../fonts/Livvic/Livvic-Regular.ttf');
 }
+/* font-family: Booter */
+@font-face {
+    font-family: Booter;
+    src: url('../fonts/Booter/Booter\ -\ Zero\ Zero.woff') format('woff');
+    src: url('../fonts/Booter/Booter\ -\ Zero\ Zero.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

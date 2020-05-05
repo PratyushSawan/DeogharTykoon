@@ -91,7 +91,7 @@ p{
 /* --------------- navbar ----------------- */
 
 .nav{
-    background: rgba(0, 0, 0, 0.592);
+    background: rgba(255, 255, 255, 0.571);
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -105,7 +105,7 @@ p{
 
 .nav .toggle-collapse{
     position: absolute;
-    --text-gray: White;
+    --text-gray: Black;
     top: 0%;
     width: 90%;
     cursor: pointer;
@@ -130,7 +130,7 @@ p{
 .nav .nav-items{
     display: flex;
     margin: 0;
-    --text-gray: White;
+    --text-gray: Blue;
 }
 
 .nav .nav-items .nav-link{
@@ -154,8 +154,9 @@ p{
     --text-gray: #fd7701;
     padding: 1rem 0;
     display: block;
-    font-family: var(--Lexend);
-    font-size: 1.6rem;
+    font-family: var(--Booter);
+    font-size: 2.6rem;
+    font-weight: 800;
 }
 
 .nav .social{
@@ -177,21 +178,23 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/images/taekwondo-kick-splash_9245-54.jpg');
-    background-size: contain;
+    background: url('../assets/images/two-men-work-out-technique-mma-impact_99043-1666.jpg');
+    background-size: cover;
     display: flex;
     justify-content: center;
-}
-@media (max-width: 500px) {
-    main .site-title{
-        background: url('../assets/images/bruce_lee_vector-43384dc3-5804-43ec-a3f7-99fdceefc592.jpg');
-        height: 110em;
-    }
-}
-main .site-title:hover{
-    background-color: #00000066;
+    background-color: black;
     background-blend-mode: hard-light;
 }
+@media (max-width: 700px) {
+    main .site-title{
+        background: url('../assets/images/bruce_lee_vector-43384dc3-5804-43ec-a3f7-99fdceefc592.jpg');
+        height: 50em;
+    }
+    main .site-title h1{
+        color: crimson;
+    }
+}
+
 main .for-mobile{
     height: 100px;
     background-color: #0c0b0b;
@@ -201,7 +204,7 @@ main .title-content{
     border-radius: 30px;
 }
 main .site-title h1{
-    color: crimson;
+    font-family: Booter;
 }
 
 main .site-title .site-background{
@@ -211,7 +214,7 @@ main .site-title .site-background{
 }
 
 main .site-title h1, h3{
-    margin: .3rem;
+    margin: 4.3rem;
 }
 
 main .site-title .btn{
