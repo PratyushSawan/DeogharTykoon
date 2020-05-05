@@ -182,6 +182,11 @@ main .site-title{
     display: flex;
     justify-content: center;
 }
+@media (max-width: 500px) {
+    main .site-title{
+        background: url('../assets/images/bruce_lee_vector-43384dc3-5804-43ec-a3f7-99fdceefc592.jpg');
+    }
+}
 main .site-title:hover{
     background-color: #00000066;
     background-blend-mode: hard-light;
