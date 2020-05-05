@@ -185,6 +185,7 @@ main .site-title{
 @media (max-width: 500px) {
     main .site-title{
         background: url('../assets/images/bruce_lee_vector-43384dc3-5804-43ec-a3f7-99fdceefc592.jpg');
+        height: 110em;
     }
 }
 main .site-title:hover{
